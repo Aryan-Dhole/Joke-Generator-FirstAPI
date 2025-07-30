@@ -17,7 +17,7 @@ A simple joke app that fetches random jokes from an external API, displays the s
 - Basic loading state logic
 
 ## 🔗 Live Demo
-[See it on Netlify]((https://thunderous-twilight-c76b39.netlify.app/)) <!-- replace this with your actual link -->
+[See it on Netlify](https://thunderous-twilight-c76b39.netlify.app/)
 
 ## 📁 Folder Structure
 Aryan Dhole
