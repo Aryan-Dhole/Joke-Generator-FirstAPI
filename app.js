@@ -7,7 +7,12 @@ btn.addEventListener("click", async () => {
     const res = await fetch("https://official-joke-api.appspot.com/jokes/random");
     const data = await res.json()
 
-    JokeE1.innerHTML = `${data.setup}<br><strong>${data.punchline}</strong>`
+    JokeE1.innerHTML = `${data.setup}`
+
+    setTimeout(() => {
+        JokeE1.innerHTML += `<br><strong>${data.punchline}</strong>`
+
+    }, 1500)
 })
 
 
